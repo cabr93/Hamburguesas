@@ -12,7 +12,6 @@ class ViewController: UIViewController {
 
     @IBOutlet weak var pais: UILabel!
     @IBOutlet weak var hamburguesa: UILabel!
-    @IBOutlet weak var btn: UIButton!
     
     let paises = coleccioDePaises()
     let hamburguesas = ColeccionDeHamburguesa()
