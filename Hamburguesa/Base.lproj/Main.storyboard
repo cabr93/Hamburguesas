@@ -23,17 +23,6 @@
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x5g-Jw-KZb">
-                                <rect key="frame" x="60" y="320" width="200" height="22"/>
-                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <color key="tintColor" red="0.43529411759999997" green="0.4431372549" blue="0.47450980390000003" alpha="1" colorSpace="calibratedRGB"/>
-                                <state key="normal" title="Quiero una hamburguesa!">
-                                    <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
-                                <connections>
-                                    <action selector="cambiarPaiseHamburguesas:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qD3-I0-R8O"/>
-                                </connections>
-                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="hamburguesa" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Mt-qx-m0P">
                                 <rect key="frame" x="60" y="200" width="200" height="50"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -44,7 +33,6 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <connections>
-                        <outlet property="btn" destination="x5g-Jw-KZb" id="3JK-lJ-FR8"/>
                         <outlet property="hamburguesa" destination="1Mt-qx-m0P" id="XZG-HO-fl9"/>
                         <outlet property="pais" destination="JhI-MW-AkR" id="fKc-7I-kZR"/>
                     </connections>
