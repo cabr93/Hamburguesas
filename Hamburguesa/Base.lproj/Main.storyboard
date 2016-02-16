@@ -44,7 +44,6 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <connections>
-                        <outlet property="btn" destination="x5g-Jw-KZb" id="3JK-lJ-FR8"/>
                         <outlet property="hamburguesa" destination="1Mt-qx-m0P" id="XZG-HO-fl9"/>
                         <outlet property="pais" destination="JhI-MW-AkR" id="fKc-7I-kZR"/>
                     </connections>
